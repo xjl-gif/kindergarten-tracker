@@ -1,7 +1,7 @@
 const CACHE_NAME = 'kg-tracker-v1';
 const ASSETS_TO_CACHE = [
   './',
-  './kindergarten-tracker.html',
+  './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
@@ -39,3 +39,4 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
